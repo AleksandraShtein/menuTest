@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Выпадающее меню</title>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div id="header">
+            <img src="http://franchising.superpirog.ru/assets/templates/main/rb-new/images/лого_3.png" id="logotype" />
+            
+            <div class="positions">
+                <p class="points">Меню</p>
+                <p class="points">Цены</p>
+                <p class="points">Акции</p>
+                <p class="points">Контакты</p>
+            </div>
+   
+            <img src="https://www.pinclipart.com/picdir/big/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png" id="menuopen" onClick="openMenu()" />
+            
+            <div class="burgermenu" id="myBurger">
+                <img src="https://static.tildacdn.com/tild3130-3761-4963-b034-316364333562/_.png" id="menuclose" onClick="openMenu()" />
+                <p class="line">Меню</p>
+                <p class="line">Цены</p>
+                <p class="line">Акции</p>
+                <p class="line">Контакты</p>
+            </div>
+        </div>
+        
+        <div id="page">
+            <h1 id="tytle">Пирогиня</h1>
+            <p id="tagline">Настоящие сибирские пироги, приготовленные с любовью</p>
+            <button id="headbutton">Сделать заказ</button>
+        </div>
+
+
+
+        <script>
+            let isOpen = false
+
+            function openMenu() {
+                const myMenu = document.getElementById ("myBurger")
+                const buttonOff = document.getElementById ("menuopen")
+
+                if (isOpen) {
+                    buttonOff.style.display = "flex"
+                    myMenu.style.display = "none"
+                    isOpen = false
+
+                } else {
+                    buttonOff.style.display = "none"
+                    myMenu.style.display = "flex"
+                    isOpen = true
+                }
+            }
+
+        </script>
+
+
+
+    </body>
+
+</html>

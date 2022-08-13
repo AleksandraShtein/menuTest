@@ -1,0 +1,227 @@
+@media (min-width: 751px) {
+body {
+        max-width: 1280px;
+        background-image: url("https://kartinkin.net/uploads/posts/2021-03/1616106204_7-p-pirozhki-krasivaya-yeda-10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+#page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 150px 50px 50px 50px;
+    }
+    
+#tytle {
+        font-family: 'Pacifico', cursive;
+        font-weight: normal;
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        margin: 20px;
+    }
+    
+#tagline {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        margin: 20px;
+    }
+    
+#headbutton {
+        width: 240px;
+        height: 40px;
+        background-color: #ffffe0;
+        border-radius: 10px;
+        border-color: #ffffe0;
+        border-width: 0px;
+        color: #5e2f0d;
+        font-size: 20px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        text-shadow: 1px 0px 1px #5e2f0d;
+        margin: 20px;
+    }
+    
+#headbutton:active {
+        background-color: #f8f8af;
+    }
+    
+.positions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 200px;
+    }
+    
+.points {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+.points:hover {
+        color: #19e815;
+        -webkit-text-stroke: 0.4px #19e815;
+    }
+    
+#logotype {
+        width: 70px;
+        height: 47px;
+        margin-right: 200px;
+    }
+    
+#header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15px;
+    }  
+
+#menuclose {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+#menuopen {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+.burgermenu {
+        display: none;
+    }
+
+.line {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        background-image: url("https://kartinkin.net/uploads/posts/2021-03/1616106204_7-p-pirozhki-krasivaya-yeda-10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 896px;
+        max-width: 600px;
+    }
+    
+    #page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+    }
+    
+    #tytle {
+        font-family: 'Pacifico', cursive;
+        font-weight: normal;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        margin-bottom: 30px
+    }
+    
+    #tagline {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        margin: 20px;
+    }
+    
+    #headbutton {
+        width: 240px;
+        height: 40px;
+        background-color: #ffffe0;
+        border-radius: 10px;
+        border-color: #ffffe0;
+        border-width: 0px;
+        color: #5e2f0d;
+        font-size: 20px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        text-shadow: 1px 0px 1px #5e2f0d;
+        margin: 20px;
+    }
+    
+    #headbutton:active {
+        background-color: #f8f8af;
+    }
+    
+    .positions {
+        display: none;
+    }
+
+    .points {
+        display: none;
+    }
+
+    .points:hover {
+        display: none;
+    }
+
+    #logotype {
+        display: none;
+    }
+
+    #menuclose {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+
+    #menuopen {
+        width: 40px;
+        height: 40px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .burgermenu {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #ffffff;
+        width: 200px;
+        height: 200px;
+    }
+
+    .line {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        color: #5e2f0d;
+        text-shadow: 1px 1px 2px black;
+        margin-bottom: 10px;
+    }    
+}
